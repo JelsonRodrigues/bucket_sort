@@ -16,9 +16,9 @@ void insertion_sort(vector<int32_t>& vector_to_sort);
 pair<int32_t, int32_t> get_vector_values_range(vector<int32_t>& vector);
 
 // Change this value
-// For quicksort you can go up to 30 beyond that, you need >8 GB of RAM
+// For quicksort you can go up to 30, beyond that you need >16 GB of RAM
 // for the process only.
-// for insertion sort the maximum is arround 23, beyond that the execution time 
+// For insertion sort the maximum is arround 23, beyond that the execution time 
 // is too high
 static const size_t VALUES = 1 << 30;
 
@@ -64,7 +64,6 @@ int main()
 	}
 
 	cout << "Is sorted? " << (is_sorted ? "true" : "false") << endl;
-
 
 	return EXIT_SUCCESS;
 }
