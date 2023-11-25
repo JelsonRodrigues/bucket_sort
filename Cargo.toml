@@ -1,5 +1,5 @@
 [package]
-name = "bucket_sort_rust"
+name = "bucket_sort"
 version = "0.1.0"
 edition = "2021"
 
